@@ -16,7 +16,7 @@ int main() {
     return 0;
 }*/
 
-/* 1152 
+/* 1152 */
 #include <iostream>
 #include <string>
 
@@ -45,4 +45,4 @@ int main() {
         result++;
     }
     cout << result;
-}*/
+}
