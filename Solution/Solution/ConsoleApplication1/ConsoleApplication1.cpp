@@ -16,7 +16,7 @@ int main() {
     return 0;
 }*/
 
-/* 1152 */
+/* 1152
 #include <iostream>
 #include <string>
 
@@ -45,4 +45,25 @@ int main() {
         result++;
     }
     cout << result;
-}
+} */
+ /*1712
+#include<iostream>
+
+using namespace std;
+
+int main() {
+    int fixed_cost = 0;
+    int variable_cost = 0;
+    int price = 0;
+    int result;
+    scanf("%d %d %d", &fixed_cost, &variable_cost, &price);
+    if (variable_cost >= price) {
+        printf("-1");
+        return 0;
+    }
+    else {
+        result = fixed_cost / (price - variable_cost);
+    }
+    printf("%d", ++result);
+    return 0;
+}*/
