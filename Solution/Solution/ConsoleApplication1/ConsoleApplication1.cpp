@@ -67,3 +67,22 @@ int main() {
     printf("%d", ++result);
     return 0;
 }*/
+/*2869
+#include <iostream>
+using namespace std;
+
+int main() {
+    int speed = 0, slip = 0, distance = 0, result = 0;
+    scanf("%d %d %d", &speed, &slip, &distance);
+    distance = distance - speed;
+    result = (distance / (speed - slip)) + 1;
+    if (distance % (speed - slip) == 0) {
+        
+    }
+    else {
+        result++;
+    }
+    printf("%d", result);
+    return 0;
+}
+*/
