@@ -86,3 +86,24 @@ int main() {
     return 0;
 }
 */
+/*10250
+#include<iostream>
+using namespace std;
+
+int main() {
+    int height = 0, width = 0, num = 0,test_num = 0;
+    int result = 0;
+    scanf("%d", &test_num);
+
+    for (int test_count = 0; test_count < test_num; test_count++) {
+        scanf("%d %d %d", &height, &width, &num);
+        if (num % height != 0) {
+            result = (num % height)*100 + (num / height + 1);
+        }
+        else {
+            result = height*100 + (num / height);
+        }
+
+        cout << result << endl;
+    }
+}*/
