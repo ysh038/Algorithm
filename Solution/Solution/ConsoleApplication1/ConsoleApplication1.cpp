@@ -107,3 +107,28 @@ int main() {
         cout << result << endl;
     }
 }*/
+/*2839
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N = 0 , result = 0;
+    cin >> N;
+
+    while (N > 0) {
+        if (N % 5 == 0) {
+            result += N / 5;
+            cout << result << endl;
+            return 0;
+        }
+        N -= 3;
+        result++;
+
+        if (N < 0) {
+            cout << -1 << endl;
+            return 0;
+        }
+    }
+    cout << result << endl;
+    return 0;
+}*/
