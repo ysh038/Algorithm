@@ -132,3 +132,27 @@ int main() {
     cout << result << endl;
     return 0;
 }*/
+/*1978*/
+#include <iostream>
+using namespace std;
+
+int findNum(int num) {
+    if (num < 2)
+        return 0;
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0)
+            return 0;
+    }
+    return 1;
+}
+
+int main() {
+    int number = 0, result = 0;
+    cin >> number;
+    int* num_arr = new int[number];
+    for (int i = 0; i < number; i++) {
+        cin >> num_arr[i];
+        result += findNum(num_arr[i]);
+    }
+    cout << result;
+}
