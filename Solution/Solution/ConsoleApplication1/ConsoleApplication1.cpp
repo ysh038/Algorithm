@@ -133,7 +133,7 @@ int main() {
     return 0;
 }*/
 /*1978*/
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int findNum(int num) {
@@ -155,4 +155,72 @@ int main() {
         result += findNum(num_arr[i]);
     }
     cout << result;
+}*/
+/*2581
+#include <iostream>
+using namespace std;
+
+int Function(int num) {
+    if (num < 2) {
+        return 0;
+    }
+    for (int j = 2; j * j <= num; j++) {
+        if (num % j == 0) {
+            return 0;
+        }
+    }
+    return num;
 }
+
+int main() {
+    int m = 0, n = 0;
+    bool isFirst = true;
+    int result = 0, min = -1;
+
+    cin >> m >> n;
+
+    for (int i = m; i <= n; i++) {
+        result+=Function(i);
+        if (isFirst && Function(i) != 0) {
+            min = Function(i);
+            isFirst = false;
+        }
+    }
+    if (min == -1) {
+        cout << -1 << endl;
+    }
+    else {
+        cout << result << endl;
+        cout << min << endl;
+    }
+    return 0;
+}*/
+/*1929
+#include <iostream>
+using namespace std;
+
+int number = 1000000;
+int a[1000001];
+
+void Find() {
+    for (int i = 2; i <= number; i++) {
+        a[i] = i;
+    }
+    for (int i = 2; i <= number; i++) {
+        if (a[i] == 0) continue;
+        for (int j = i + i; j <= number; j += i) {
+            a[j] = 0;
+        }
+    }
+}
+
+int main() {
+    int start = 0, end = 0;
+    cin >> start >> end;
+    Find();
+    for (int i = start; i <= end; i++) {
+        if (a[i] != 0)
+            cout << a[i] << '\n';
+    }
+    return 0;
+}*/
