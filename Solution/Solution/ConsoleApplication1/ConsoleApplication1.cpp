@@ -224,3 +224,26 @@ int main() {
     }
     return 0;
 }*/
+
+/*10872
+#include <iostream>
+using namespace std;
+
+void Factorial(int n,int result) {
+    if (n == 0) {
+        cout << result << endl;
+    }
+    else {
+        result *= n;
+        Factorial(--n, result);
+    }
+}
+
+int main() {
+    int n = 0;
+    cin >> n;
+    int result = 1;
+
+    Factorial(n,result);
+    return 0;
+}*/
