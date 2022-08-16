@@ -293,3 +293,26 @@ int main() {
     printf("라고 답변하였지.");
     return 0;
 }*/
+/*2798
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N = 0, M = 0;
+    cin >> N >> M;
+    int* card = new int[N];
+    int result = 0;
+    for (int i = 0; i < N; i++) {
+        cin >> card[i];
+    }
+    for (int i = 0; i < N - 2; i++) {
+        for (int j = i + 1; j < N - 1; j++) {
+            for (int k = j + 1; k < N; k++) {
+                if (card[i] + card[j] + card[k] <= M && M - (card[i] + card[j] + card[k]) < M - result) {
+                    result = card[i] + card[j] + card[k];
+                }
+            }
+        }
+    }
+    cout << result;
+}*/
