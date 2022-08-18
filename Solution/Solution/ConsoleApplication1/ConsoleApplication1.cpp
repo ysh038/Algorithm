@@ -384,13 +384,15 @@ int main() {
 #include <iostream>
 using namespace std;
 
-void merge(int* arr, int left, int right) {
+//int temp[1000000];
+
+void merge(int* arr, int* temp, int left, int right) {
     int n = right - left + 1;
     int mid = (left + right) / 2;
     int i = left;
     int k = left;
     int j = mid + 1;
-    int* temp = new int[n];
+    //int* temp = new int[n];
 
     while (i <= mid && j <= right) {
         if (arr[i] <= arr[j]) {
@@ -422,11 +424,11 @@ void merge(int* arr, int left, int right) {
     }
 }
 
-void mergeSort(int* array, int left, int right) {
+void mergeSort(int* array, int *temp, int left, int right) {
     if (left != right) {
-        mergeSort(array, left, (left + right) / 2);
-        mergeSort(array, (left + right) / 2 + 1, right);
-        merge(array, left, right);
+        mergeSort(array, temp, left, (left + right) / 2);
+        mergeSort(array, temp, (left + right) / 2 + 1, right);
+        merge(array, temp, left, right);
     }
 }
 
@@ -435,11 +437,12 @@ int main() {
     int n = 0;
     cin >> n;
     int* arr = new int[n];
+    int* temp = new int[n];
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    mergeSort(arr, 0, n - 1);
+    mergeSort(arr,temp, 0, n - 1);
 
     for (int i = 0; i < n; i++) {
         cout << arr[i] << "\n";
