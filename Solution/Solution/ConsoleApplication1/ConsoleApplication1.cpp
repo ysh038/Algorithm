@@ -1,4 +1,4 @@
-﻿/* 10809
+﻿/* 10809 알파벳찾기
 #include<iostream>
 #include <string>
 
@@ -16,7 +16,7 @@ int main() {
     return 0;
 }*/
 
-/* 1152
+/* 1152 단어의 개수
 #include <iostream>
 #include <string>
 
@@ -46,7 +46,7 @@ int main() {
     }
     cout << result;
 } */
- /*1712
+ /*1712 손익분기점
 #include<iostream>
 
 using namespace std;
@@ -67,7 +67,7 @@ int main() {
     printf("%d", ++result);
     return 0;
 }*/
-/*2869
+/*2869 달팽이는 올라가고싶다
 #include <iostream>
 using namespace std;
 
@@ -86,7 +86,7 @@ int main() {
     return 0;
 }
 */
-/*10250
+/*10250 ACM호텔
 #include<iostream>
 using namespace std;
 
@@ -107,7 +107,7 @@ int main() {
         cout << result << endl;
     }
 }*/
-/*2839
+/*2839 설탕 배달
 #include <iostream>
 using namespace std;
 
@@ -132,8 +132,9 @@ int main() {
     cout << result << endl;
     return 0;
 }*/
-/*1978*/
-/*#include <iostream>
+/* 1978 소수찾기 */
+/*
+#include <iostream>
 using namespace std;
 
 int findNum(int num) {
@@ -155,8 +156,9 @@ int main() {
         result += findNum(num_arr[i]);
     }
     cout << result;
-}*/
-/*2581
+}
+*/
+/* 2581 소수
 #include <iostream>
 using namespace std;
 
@@ -195,7 +197,7 @@ int main() {
     }
     return 0;
 }*/
-/*1929
+/*1929 소수 구하기
 #include <iostream>
 using namespace std;
 
@@ -225,7 +227,7 @@ int main() {
     return 0;
 }*/
 
-/*10872
+/*10872 팩토리얼
 #include <iostream>
 using namespace std;
 
@@ -247,7 +249,7 @@ int main() {
     Factorial(n,result);
     return 0;
 }*/
-/*17478
+/*17478 재귀함수가 뭔가요?
 #include<iostream>
 using namespace std;
 
@@ -293,7 +295,7 @@ int main() {
     printf("라고 답변하였지.");
     return 0;
 }*/
-/*2798
+/*2798 블랙잭
 #include <iostream>
 using namespace std;
 
@@ -316,7 +318,7 @@ int main() {
     }
     cout << result;
 }*/
-/*2750 Bubble Sort
+/*2750 수 정렬하기 Bubble Sort
 #include <iostream>
 using namespace std;
 
@@ -348,7 +350,7 @@ int main() {
     }
     return 0;
 }*/
-/*2750 Insertion Sort
+/*2750 수 정렬하기 Insertion Sort
 #include <iostream>
 using namespace std;
 
@@ -380,7 +382,7 @@ int main() {
     }
     return 0;
 }*/
-/*2751 분할정복 Merge Sort*/
+/*2751 수 정렬하기2 분할정복 Merge Sort
 #include <iostream>
 using namespace std;
 
@@ -448,4 +450,27 @@ int main() {
         cout << arr[i] << "\n";
     }
     return 0;
-}
+}*/
+/*10809 수 정렬하기3 카운팅 정렬
+#include <iostream>
+using namespace std;
+
+int main() {
+    int temp[10001] = {0,};
+    int N = 0;    
+    int a = 0;
+    scanf("%d", &N);
+
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &a);
+        temp[a - 1] += 1;
+    }
+
+    for (int i = 0; i < 10000; i++) {
+        while (temp[i] > 0) {
+            printf("%d\n", i + 1);
+            temp[i]--;
+        }
+    }
+    return 0;
+}*/

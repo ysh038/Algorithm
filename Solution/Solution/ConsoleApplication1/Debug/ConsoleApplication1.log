@@ -1,2 +1,3 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\youje\OneDrive\바탕 화면\BaekJoon\Solution\Solution\Debug\ConsoleApplication1.exe
+C:\Users\82109\Desktop\BaekJoon\Solution\Solution\ConsoleApplication1\ConsoleApplication1.cpp(462,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\82109\Desktop\BaekJoon\Solution\Solution\ConsoleApplication1\ConsoleApplication1.cpp(465,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
