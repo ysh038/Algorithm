@@ -394,7 +394,6 @@ void merge(int* arr, int* temp, int left, int right) {
     int i = left;
     int k = left;
     int j = mid + 1;
-    //int* temp = new int[n];
 
     while (i <= mid && j <= right) {
         if (arr[i] <= arr[j]) {
@@ -474,3 +473,124 @@ int main() {
     }
     return 0;
 }*/
+/*2108 통계학  정렬*/
+#include <iostream>
+using namespace std;
+
+void merge(int* array, int* temp, int left, int right) {
+    int n = right - left + 1;
+    int middle = (right + left) / 2;
+    int i = left;
+    int k = left;
+    int j = middle + 1;
+    while (i <= middle && j <= right) {
+        if (array[i] > array[j]) {
+            temp[k] = array[j];
+            k++;
+            j++;
+        }
+        else {
+            temp[k] = array[i];
+            k++;
+            i++;
+        }
+    }
+    while (i <= middle) {
+        temp[k] = array[i];
+        k++;
+        i++;
+    }
+    while (j <= right) {
+        temp[k] = array[j];
+        j++;
+        k++;
+    }
+    for (int a = left; a <= right; a++) {
+        array[a] = temp[a];
+    }
+}
+
+void mergeSort(int *array,int *temp, int left, int right) {
+    if (left != right) {
+        mergeSort(array, temp, left, (left + right) / 2);
+        mergeSort(array, temp, (left + right) / 2 + 1, right);
+        merge(array, temp, left, right);
+    }
+}
+
+int findMostUsed(int* array, int N) {
+    if (N == 1) {
+        return array[0];
+    }
+    else if (N == 2) {
+        return array[1];
+    }
+    int* most = new int[N];
+    most = { 0, };
+    int most_count = 0;
+    int count = 0;
+    int i = 0;
+    int k = 0;
+    while (i < N) {
+        if (array[i] == array[i + 1]) {
+            count++;
+        }
+        else {
+            if (count > most_count) {
+                int* most = new int[N];
+                most = { 0, };
+                most[k] = array[i-1];
+                most_count = count;
+                k++;
+            }
+            else if (count == most_count) {
+                most[k] = array[i-1];
+                k++;
+            }
+            else {
+
+            }
+            count = 0;
+        }
+        i++;
+    }
+    if (k >= 2) {
+        return most[1];
+    }
+    else if(k == 1){
+        return most[0];
+    }
+    else {
+        if (N < 2) {
+            return array[0];
+        }
+        else {
+            return array[1];
+        }
+    }
+}
+
+int main() {
+    int N = 0;
+    int average = 0;
+    int most = 0;
+    scanf_s("%d", &N);
+    int* array = new int[N];
+    int* temp = new int[N];
+    for (int i = 0; i < N; i++) {
+        scanf_s("%d", &array[i]);
+        average += array[i];
+    }
+    average = average / N;
+    printf("%d\n", average);
+
+    mergeSort(array,temp,0,N-1);
+    printf("%d\n", array[N / 2]);
+
+    //printf("%d\n", array[0]);
+    most = findMostUsed(array, N);
+    printf("%d", most);
+
+    printf("%d\n", array[N-1] - array[0]);
+    return 0;
+}
