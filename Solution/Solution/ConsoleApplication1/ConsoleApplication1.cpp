@@ -473,7 +473,7 @@ int main() {
     }
     return 0;
 }*/
-/*2108 통계학  정렬*/
+/*2108 통계학  정렬
 #include <iostream>
 using namespace std;
 
@@ -593,4 +593,33 @@ int main() {
 
     printf("%d\n", array[N-1] - array[0]);
     return 0;
+}*/
+/*1181 단어정렬 (c++ 내장라이브러리인 algorithm, vector 처음 사용해봄) 
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int compare(string a, string b) {
+    if (a.length() == b.length()) {
+        return a < b;
+    }
+    return a.length() < b.length();
 }
+int main() {
+    int N = 0;
+    cin >> N;
+    vector<string> arr;
+    for (int i = 0; i < N; i++) {
+        string temp;
+        cin >> temp;
+        if (find(arr.begin(), arr.end(), temp) == arr.end()) {
+            arr.push_back(temp);
+        }
+    }
+    sort(arr.begin(), arr.end(), compare);
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << '\n';
+    }
+    return 0;
+}*/
