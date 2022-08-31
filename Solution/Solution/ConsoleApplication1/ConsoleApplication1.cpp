@@ -623,3 +623,86 @@ int main() {
     }
     return 0;
 }*/
+/*10815 숫자카드 (정렬 후 이진탐색)
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int isFind = 0;
+    int N = 0;
+    int M = 0;
+    int temp = 0;
+    vector<int> array;
+    vector<int> result;
+
+    cin >> N;
+    for (int i = 0; i < N; i++) {
+        cin >> temp;
+        array.push_back(temp);
+    }
+    sort(array.begin(), array.end());
+    
+    cin >> M;
+    for (int i = 0; i < M; i++) {
+        isFind = 0;
+        cin >> temp;
+        int left = 0;
+        int right = N - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (array[mid] == temp) {
+                result.push_back(1);
+                isFind = 1;
+                break;
+            }
+            else if (array[mid] > temp) {
+                right = mid - 1;
+            }
+            else {
+                left = mid + 1;
+            }
+        }
+        if (isFind == 0) {
+            result.push_back(0);
+        }
+    }
+    for (int i = 0; i < M; i++) {
+        cout << result[i] << " ";
+    }
+    return 0;
+}*/
+/*10816 숫자카드2 lower_bound, upper_bound
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int isfinded = 0;
+    int N = 0, M = 0;
+    int temp = 0;
+    vector<int> array;
+    vector<int> result;
+
+    cin >> N;
+    for (int i = 0; i < N; i++) {
+        cin >> temp;
+        array.push_back(temp);
+    }
+    sort(array.begin(), array.end());
+    
+    cin >> M;
+    for (int i = 0; i < M; i++) {
+        cin >> temp;
+        result.push_back(upper_bound(array.begin(), array.end(), temp) - lower_bound(array.begin(), array.end(), temp));
+    }
+    for (int i = 0; i < M; i++) {
+        cout << result[i] << " ";
+    }
+
+    return 0;
+}*/
