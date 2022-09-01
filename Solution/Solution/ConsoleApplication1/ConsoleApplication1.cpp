@@ -706,3 +706,43 @@ int main() {
 
     return 0;
 }*/
+/*1764 듣보잡 >> 두 배열을 이어붙힌 후 정렬하면 같은것 끼리 붙어있음!
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+vector<string> array1;
+vector<string> result;
+
+int main() {
+    int N = 0, M = 0;
+    string temp;
+    cin >> N;
+    cin >> M;
+
+    for (int i = 0; i < N; i++) {
+        cin >> temp;
+        array1.push_back(temp);
+    }
+    for (int i = 0; i < M; i++) {
+        cin >> temp;
+        array1.push_back(temp);
+    } 
+
+    sort(array1.begin(), array1.end());
+    
+    for (int i = 0; i < N + M - 1; i++) {
+        if (array1[i] == array1[i + 1]) {
+            result.push_back(array1[i]);
+        }
+    }
+
+    printf("%d", result.size());
+    for (int i = 0; i < result.size(); i++) {
+        printf("\n%s", result[i].c_str());
+    }
+    return 0;
+}*/
