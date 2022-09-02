@@ -746,3 +746,112 @@ int main() {
     }
     return 0;
 }*/
+/* 1085 직사각형에서 탈출 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int x = 0, y = 0, w = 0, h = 0;
+    cin >> x >> y >> w >> h;
+
+    int result = 0;
+    result = h - y;
+
+    if ((w - x) < result)
+        result = (w - x);
+    if (y < result)
+        result = y;
+    if (x < result)
+        result = x;
+    if ((h - y) < result)
+        result = (h - y);
+
+    cout << result << "\n";
+
+    return 0;
+}*/
+/*2477 참외밭 (백준에서 틀렸다고 나오는데 반례를 못찾겠음) 맞는데
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int width = 0, height = 0, width_s = 0, height_s = 0;
+    vector<pair<int, int>> array;
+    int K = 0;
+    cin >> K;
+
+    for (int i = 0; i < 6; i++) {
+        int dir, length;
+        cin >> dir >> length;
+
+        if (dir <= 2) {
+            if (length > width) {
+                width = length;
+            }
+        }
+        else {
+            if (length > height) {
+                height = length;
+            }
+        }
+        array.push_back({ dir,length });
+    }
+
+    for (int i = 0; i < 6; i++) {
+        if (i + 2 >= 6) {
+            if (i + 2 == 6) {
+                if (array[i].first == array[0].first) {
+                    if (array[i + 1].first <= 2) {
+                        width_s = array[i + 1].second;
+                        height_s = array[0].second ;
+                        break;
+                    }
+                    else {
+                        height_s = array[i + 1].second;
+                        width_s = array[0].second;
+                        break;
+
+                    }
+                }
+            }
+            else {
+                if (array[i].first == array[1].first) {
+                    if (array[0].first <= 2) {
+                        width_s = array[0].second;
+                        height_s = array[1].second;
+                        break;
+
+                    }
+                    else {
+                        height_s = array[0].second;
+                        width_s = array[1].second;
+                        break;
+
+                    }
+                }
+            }
+        }
+        else {
+            if (array[i].first == array[i + 2].first) {
+                if (array[i + 1].first <= 2) {
+                    width_s = array[i + 1].second;
+                    height_s = array[i + 2].second;
+                    break;
+
+                }
+                else {
+                    height_s = array[i + 1].second;
+                    width_s = array[i + 2].second;
+                    break;
+
+                }
+            }
+        } 
+    }
+    cout << ((width * height) - (width_s * height_s)) * K;
+    return 0;
+}*/
