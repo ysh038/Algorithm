@@ -1,2 +1,3 @@
 # 알고리즘 연습
- Algorithm Practice
+
+- 기존에는 C++로 연습했으나, 2023년 9월부터 Python으로 전향
