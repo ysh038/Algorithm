@@ -6,6 +6,9 @@
 <br>
 
 ## Repository 구성
+
 <br>
 - 현재는 BaekJoon 사이트에서만 풀기때문에 BaekJoon 디렉토리만 존재
 - BaekJoon 하위 디렉토리에 알고리즘별로 코드 정리
+
+여기에 표
