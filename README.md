@@ -30,3 +30,4 @@
 | 1차원 배열 | 2562  |  [최댓값](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/2562/2562.md) |  2023-09-14 |
 | 1차원 배열 | 10810  |  [공 넣기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/10810/10810.md) |  2023-09-15 |
 | 1차원 배열 | 10813  |  [공 바꾸기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/10813/10813.md) |  2023-09-16 |
+| 1차원 배열 | 1546  |  [평균](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/1546/1546.md) |  2023-09-16 |
