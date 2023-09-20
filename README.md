@@ -32,3 +32,8 @@
 | 1차원 배열 | 10813  |  [공 바꾸기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/10813/10813.md) |  2023-09-16 |
 | 1차원 배열 | 1546  |  [평균](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/1546/1546.md) |  2023-09-16 |
 | 1차원 배열 | 10811  |  [바구니뒤집기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/10811/10811.md) |  2023-09-19 |
+| 문자열 | 2743  |  [단어 길이 재기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/2743/2743.md) |  2023-09-20 |
+| 문자열 | 9086  |  [문자열](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/9086/9086.md) |  2023-09-20 |
+| 문자열 | 27866  |  [문자와 문자열](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/27866/27866.md) |  2023-09-20 |
+
+
