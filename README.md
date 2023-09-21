@@ -37,5 +37,6 @@
 | 문자열 | 27866  |  [문자와 문자열](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/27866/27866.md) |  2023-09-20 |
 | 문자열 | 11654  |  [아스키 코드](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/11654/11654.md) |  2023-09-20 |
 | 문자열 | 10809  |  [알파벳 찾기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%AC%B8%EC%9E%90%EC%97%B4/10809/10809.md) |  2023-09-20 |
-
-
+| 심화1 | 1157  |  [단어 공부](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/1157/1157.md) |  2023-09-21 |
+| 심화1 | 2444  |  [별 찍기-7](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/2444/2444.md) |  2023-09-21 |
+| 심화1 | 3003  |  [킹, 퀸, 룩, 비숍, 나이트, 폰](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/3003/3003.md) |  2023-09-21 |
