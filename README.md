@@ -40,3 +40,5 @@
 | 심화1 | 1157  |  [단어 공부](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/1157/1157.md) |  2023-09-21 |
 | 심화1 | 2444  |  [별 찍기-7](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/2444/2444.md) |  2023-09-21 |
 | 심화1 | 3003  |  [킹, 퀸, 룩, 비숍, 나이트, 폰](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/3003/3003.md) |  2023-09-21 |
+| 심화1 | 2941  |  [크로아티아 알파벳](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/2941/2941.md) |  2023-09-22 |
+| 심화1 | 1316  |  [그룹 단어 체커](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/1316/1316.md) |  2023-09-22 |
