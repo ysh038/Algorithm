@@ -43,3 +43,5 @@
 | 심화1 | 2941  |  [크로아티아 알파벳](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/2941/2941.md) |  2023-09-22 |
 | 심화1 | 1316  |  [그룹 단어 체커](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/1316/1316.md) |  2023-09-22 |
 | 심화1 | 25206  |  [너의 평점은](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/25206/25206.md) |  2023-09-23 |
+| 심화 1 | 10988  |  [팰린드롬인지 확인하기](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%201/10988/10988.md) |  2023-09-24 |
+| 2차원 배열 | 2738  |  [행렬 덧셈](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/2%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4/2738/2738.md) |  2023-09-24 |
