@@ -50,3 +50,5 @@
 | 일반 수학1 | 2745  |  [진법 변환](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9D%BC%EB%B0%98%20%EC%88%98%ED%95%99%201/2745/2745.md) |  2023-09-27 |
 | 일반 수학1 | 11005  |  [진법 변환2](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9D%BC%EB%B0%98%20%EC%88%98%ED%95%99%201/11005/11005.md) |  2023-09-27 |
 | 일반 수학1 | 2720  |  [세탁소 사장 동혁](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9D%BC%EB%B0%98%20%EC%88%98%ED%95%99%201/2720/2720.md) |  2023-10-01 |
+| 브루트 포스 | 2798  |  [블랙잭](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/2798/2798.md) |  2023-10-04 |
+| 브루트 포스 | 1436  |  [영화감독 숌](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/1436/1436.md) |  2023-10-04 |
