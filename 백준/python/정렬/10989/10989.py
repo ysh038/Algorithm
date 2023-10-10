@@ -2,14 +2,12 @@ import sys
 
 N = int(sys.stdin.readline())
 
-array = [0] * N
+cnt = [0] * 10001
 
 for i in range(N):
-    array[i] = int(sys.stdin.readline())
+    cnt[int(sys.stdin.readline())] += 1
 
-print(len(array))
-
-array.sort()
-
-for i in array:
-    print(i)
+for i in range(1,10001):
+    if cnt[i] != 0:
+        for j in range(cnt[i]):
+            print(i)
