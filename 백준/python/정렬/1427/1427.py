@@ -8,4 +8,4 @@ for i in range(len(array)):
             array[i], array[j] = array[j], array[i]
 
 for i in array:
-    print(i)
+    print(i,end="")
