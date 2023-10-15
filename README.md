@@ -53,3 +53,23 @@
 | 브루트 포스 | 2798  |  [블랙잭](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/2798/2798.md) |  2023-10-04 |
 | 브루트 포스 | 1436  |  [영화감독 숌](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/1436/1436.md) |  2023-10-04 |
 | 브루트 포스 | 2839  |  [설탕 배달](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/2839/2839.md) |  2023-10-05 |
+| 브루트 포스 | 2839  |  [설탕 배달](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4/2839/2839.md) |  2023-10-05 |
+| 정렬 | 1181  |  [단어 정렬](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/1181/1181.md) |  2023-10-06 |
+| 정렬 | 1427  |  [소트인사이드](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/1427/1427.md) |  2023-10-06 |
+| 정렬 | 2587  |  [대표값](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/2587/2587.md) |  2023-10-06 |
+| 정렬 | 2750  |  [수 정렬하기](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/2750/2750.md) |  2023-10-07 |
+| 정렬 | 2751  |  [수 정렬하기2](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/2751/2751.md) |  2023-10-07 |
+| 정렬 | 10814  |  [나이 순 정렬](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/10814/10814.md) |  2023-10-08 |
+| 정렬 | 10989  |  [수 정렬하기3](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/10989/10989.md) |  2023-10-08 |
+| 정렬 | 11650  |  [좌표 정렬하기](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/11650/11650.md) |  2023-10-09 |
+| 정렬 | 11651  |  [좌표 정렬하기2](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/1181/1181.md) |  2023-10-09 |
+| 정렬 | 18870  |  [좌표 압축](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/18870/18870.md) |  2023-10-13 |
+| 정렬 | 25305  |  [커트라인](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/25305/25305.md) |  2023-10-13 |
+
+
+
+
+
+
+
+
