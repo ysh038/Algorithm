@@ -18,7 +18,5 @@ for i in sangguen_card_array:
         compare_card_set[i] += 1
 
 for i in compare_card_array:
-    if i in compare_card_set:
-        print(compare_card_set[i], end=" ")
-    else:
-        print(0, end=" ")
+    print(compare_card_set[i], end=" ")
+    
