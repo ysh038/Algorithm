@@ -65,6 +65,12 @@
 | 정렬 | 11651  |  [좌표 정렬하기2](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/1181/1181.md) |  2023-10-09 |
 | 정렬 | 18870  |  [좌표 압축](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/18870/18870.md) |  2023-10-13 |
 | 정렬 | 25305  |  [커트라인](https://github.com/ysh038/Algorithm/blob/main/백준/python/정렬/25305/25305.md) |  2023-10-13 |
+| 집합과 맵 | 14425  |  [문자열 집합](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/14425/14425.md) |  2023-10-14 |
+| 집합과 맵 | 10815  |  [숫자 카드](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/10815/10815.md) |  2023-10-15 |
+| 집합과 맵 | 10815  |  [숫자 카드2](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/10816/10816.md) |  2023-10-16 |
+| 집합과 맵 | 10815  |  [회사에 있는 사람](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/7785/7785.md) |  2023-10-18 |
+
+
 
 
 
