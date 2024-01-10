@@ -9,7 +9,13 @@ def dfs():
     global cnt
     for w in range(N):
         for h in range(N):
-            queen_visited[w][h] = True        
+            if queen_visited[w][h] != False:
+                queen_visited[w][h] = True
+                cnt += 1
+                dfs()
+                queen_visited[w][h] = False
+            else:
+                continue
     
     return cnt
 
