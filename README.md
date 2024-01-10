@@ -69,6 +69,30 @@
 | 집합과 맵 | 10815  |  [숫자 카드](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/10815/10815.md) |  2023-10-15 |
 | 집합과 맵 | 10815  |  [숫자 카드2](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/10816/10816.md) |  2023-10-16 |
 | 집합과 맵 | 10815  |  [회사에 있는 사람](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/7785/7785.md) |  2023-10-18 |
+| 집합과 맵 | 10815  |  [회사에 있는 사람](https://github.com/ysh038/Algorithm/blob/main/백준/python/집합과%20맵/7785/7785.md) |  2023-10-18 |
+| 스택과 큐 | 28278  |  [스택 2](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8A%A4%ED%83%9D%EA%B3%BC%20%ED%81%90/28278/28278.md)
+| 약수, 배수와 소수 | 1934  |  [최소공배수](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%95%BD%EC%88%98%2C%20%EB%B0%B0%EC%88%98%EC%99%80%20%EC%86%8C%EC%88%98%202/1934/1934.md)
+| 심화 2 | 1037  |  [약수](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%202/1037/1037.md)
+| 심화 2 | 20920  |  [영단어 암기는 괴로워](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%202/20920/20920.md)
+| 심화 2 | 2108  |  [통계학](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%202/2108/2108.md)
+| 심화 2 | 25192  |  [인사성 밝은 곰돌이](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%8B%AC%ED%99%94%202/25192/25192.md)
+| 재귀함수 | 10870  |  [피보나치 수 5](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98/10870/10870.md)
+| 재귀함수 | 2447  |  [별 찍기 - 10](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98/2447/2447.md)
+| 재귀함수 | 25501  |  [재귀의 귀재](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98/25501/25501.md)
+| 재귀함수 | 27433  |  [팩토리얼 2](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98/27433/27433.md)
+| 백트래킹 | 15649  |  [N과 M (1)](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/15649/15649.md)
+| 백트래킹 | 15650  |  [N과 M (2)](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/15650/15650.md)
+| 백트래킹 | 15651  |  [N과 M (3)](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/15651/15651.md)
+| 백트래킹 | 15652  |  [N과 M (4)](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/15652/15652.md)
+| 백트래킹 | 9633  |  [N - Queen](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/9633/9633.md)
+
+
+
+
+
+
+
+
 
 
 
