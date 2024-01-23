@@ -29,9 +29,6 @@ def dfs(add, sub, mul, div, sum,idx):
     if div > 0:
         dfs(add, sub, mul, div-1, int(sum/array[idx]),idx+1)
 
-
-    array[idx]
-
 dfs(add, sub, mul, div, array[0],1)
 
 print(max_result)
