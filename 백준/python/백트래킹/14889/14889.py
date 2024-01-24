@@ -4,10 +4,10 @@ N = int(sys.stdin.readline())
 S = [list(map(int,sys.stdin.readline().split()))for _ in range(N)]
 visited = [False for _ in range(N)]
 
-min = int(1e9)
+m_min = int(1e9)
 
 def dfs(i,j):
-    global min
+    global m_min
 
     if i == N//2:
         s1, s2 = 0, 0
@@ -17,7 +17,14 @@ def dfs(i,j):
                     s1 += S[i][j]
                 elif not visited[i] and not visited[j]:
                     s2 += S[i][j]
-        min = min(min, abs(s1-s2))
+        m_min = min(m_min, abs(s1-s2))
+        return
+
+    for k in range(j, N):
+        if not visited[k]:
+            visited[k] = True
+            dfs(i+1, k+1)
+            visited[k] = False
 
 dfs(0,0)
-print(min)
+print(m_min)
