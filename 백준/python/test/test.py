@@ -26,25 +26,25 @@
 # result += str(num)
 # print(result[::-1])
 # ==========================================
-try:
-    H = input()  # 단, 입력 값은 H < 24인 0 이상의 정수
-    M = input()  # 단, 입력 값은 M <= 60인 0 이상의 정수
+# try:
+#     H = input()  # 단, 입력 값은 H < 24인 0 이상의 정수
+#     M = input()  # 단, 입력 값은 M <= 60인 0 이상의 정수
 
-    if M < 45:
-        if H == 0:
-            H = 23
-            M -= 45
-            M = 60 + M
-        else:
-            H -= 1
-            M -= 45
-            M = 60 + M
-    else:
-        M -= 45
+#     if M < 45:
+#         if H == 0:
+#             H = 23
+#             M -= 45
+#             M = 60 + M
+#         else:
+#             H -= 1
+#             M -= 45
+#             M = 60 + M
+#     else:
+#         M -= 45
 
-    print(H, M)
-except KeyboardInterrupt:
-    print("")
+#     print(H, M)
+# except KeyboardInterrupt:
+#     print("")
 
 # ======= 아래는 이상한거
 
@@ -58,3 +58,4 @@ except KeyboardInterrupt:
 
 # M =- 45
 # print(H, M)
+
