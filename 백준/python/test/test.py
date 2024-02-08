@@ -59,3 +59,7 @@
 # M =- 45
 # print(H, M)
 
+if 1 > 2:
+    print("123")
+elif 3>4:
+    print("1234")
