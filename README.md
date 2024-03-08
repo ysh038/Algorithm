@@ -87,3 +87,20 @@
 | 백트래킹          | 15652    | [N과 M (4)](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/15652/15652.md)                                        |
 | 백트래킹          | 9633     | [N - Queen](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/9633/9633.md)                                          |
 | 백트래킹          | 2580     | [스도쿠](https://github.com/ysh038/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/python/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/2580/2580.md)                                             |
+| 백트래킹  | 14889    | [스타트와 링크](https://github.com/ysh038/Algorithm/blob/main/백준/python/백트래킹/14889/14889.md)|
+| 백트래킹  | 14888    | [연산자 끼워넣기](https://github.com/ysh038/Algorithm/blob/main/백준/python/백트래킹/14888/14888.md)|
+| 동적 계획법  | 11053    | [가장 긴 증가하는 부분 수열](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/11053/11053.md)|
+| 동적 계획법  | 2156    | [포도주 시식](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/2156/2156.md)|
+| 동적 계획법  | 10844    | [쉬운 계단 수](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/10844/10844.md)|
+| 동적 계획법  | 9461    | [파도반 수열](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/9461/9461.md)|
+| 동적 계획법  | 2579    | [계단 오르기](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/2579/2579.md)|
+| 동적 계획법  | 1463    | [1로 만들기](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/1463/11053.md)|
+| 동적 계획법  | 1149    | [RGB 거리](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/1149/1149.md)|
+| 동적 계획법  | 1904    | [01타일](https://github.com/ysh038/Algorithm/blob/main/백준/python/동적%20계획법%201/1904/1904.md)|
+| 누적합  | 11659    | [구간 합 구하기 4](https://github.com/ysh038/Algorithm/blob/main/백준/python/누적합/11659/11659.md)|
+| 누적합  | 2559    | [수열](https://github.com/ysh038/Algorithm/blob/main/백준/python/누적합/2559/2559.md)|
+| 그리디 알고리즘  | 1931    | [회의실 배정](https://github.com/ysh038/Algorithm/blob/main/백준/python/그리디%20알고리즘/1931/1931.md)|
+| 그리디 알고리즘  | 11047    | [동전 0](https://github.com/ysh038/Algorithm/blob/main/백준/python/그리디%20알고리즘/11047/11047.md)|
+| 분할 정복  | 1629    | [곱셈](https://github.com/ysh038/Algorithm/blob/main/백준/python/분할정복/1629/1629.md)|
+| 분할 정복  | 2630    | [색종이 만들기 ](https://github.com/ysh038/Algorithm/blob/main/백준/python/분할정복/2630/2630.md)|
+| 분할 정복  | 1992    | [ 쿼드 트리 ](https://github.com/ysh038/Algorithm/blob/main/백준/python/분할정복/1992/1992.md)|
