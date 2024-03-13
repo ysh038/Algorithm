@@ -8,17 +8,20 @@ num_list = list(map(int,sys.stdin.readline().split()))
 
 A.sort()
 
-for i in range(M):
-    A_index = N//2
-    if num_list[i] < A[A_index]:
-        A_index //= 2
-    elif num_list[i] > A[A_index]:
-        A_index *= 2
-    elif num_list[i] == A[A_index]:
-        print(1)
-    else:
+for num in num_list:
+    isExist = False
+    left = 0
+    right = N - 1
 
-def binarySearch(index):
-    if num_list[index] < A[N//2]:
-        index = 
-    elif num_list[i] > A[M//2]:
+    while left <= right:
+        middle = (left + right) // 2
+        if num < A[middle]:
+            right = middle - 1
+        elif num > A[middle]:
+            left = middle + 1
+        else:
+            isExist = True
+            print(1)
+            break
+    if not isExist:
+        print(0)

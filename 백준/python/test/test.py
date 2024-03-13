@@ -59,7 +59,7 @@
 # M =- 45
 # print(H, M)
 
-if 1 > 2:
-    print("123")
-elif 3>4:
-    print("1234")
+total_muinutes = 60 * 60 + 0
+
+alarm_hours, alarm_minutes = divmod(total_muinutes,60)
+print(alarm_hours, alarm_minutes)
