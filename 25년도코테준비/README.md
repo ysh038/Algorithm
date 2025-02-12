@@ -14,9 +14,9 @@
 
 - [x] [2557](https://boj.kr/2557)  
 - [x] [1000](https://boj.kr/1000)  
-- [ ] [2558](https://boj.kr/2558)  
-- [ ] [10950](https://boj.kr/10950)  
-- [ ] [10951](https://boj.kr/10951)  
+- [x] [2558](https://boj.kr/2558)  
+- [x] [10950](https://boj.kr/10950)  
+- [x] [10951](https://boj.kr/10951)  
 - [ ] [10952](https://boj.kr/10952)  
 - [ ] [10953](https://boj.kr/10953)  
 - [ ] [11021](https://boj.kr/11021)  
