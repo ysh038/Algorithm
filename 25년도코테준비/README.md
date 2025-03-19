@@ -52,7 +52,7 @@
 - [x] [11057](https://boj.kr/11057)  
 - [x] [1149](https://boj.kr/1149)  
 - [] [2193](https://boj.kr/2193)  
-- [] [9465](https://boj.kr/9465)  
+- [x] [9465](https://boj.kr/9465)  
 - [] [2156](https://boj.kr/2156)  
 - [] [11053](https://boj.kr/11053)  
 - [] [11055](https://boj.kr/11055)  
