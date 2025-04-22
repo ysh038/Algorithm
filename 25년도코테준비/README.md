@@ -72,3 +72,4 @@
 - [x] [2751](https://boj.kr/2751)  
 - [x] [11650](https://boj.kr/11650)  
 - [x] [11652](https://boj.kr/11652)  
+- [x] [6588](https://boj.kr/6588)  
